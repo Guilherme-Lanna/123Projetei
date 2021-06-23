@@ -1,0 +1,178 @@
+.App {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #0062b3;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .links {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar .loggedInContainer {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar button {
+  width: 90px;
+  height: 50px;
+  cursor: pointer;
+  /* margin-right: 10px; */
+  background-color: rgb(228, 228, 228); 
+}
+
+
+
+/* LISTA */
+.pessoa {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+.pessoa td,
+.pessoa th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.pessoa tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.pessoa tr:hover {
+  background-color: #ddd;
+}
+.pessoa th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0062b3;
+  color: white;
+}
+.pessoa button {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  
+  background-color: rgb(228, 228, 228); 
+}
+
+/* PAGINA PESSOA */
+.paginaPessoa button{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(228, 228, 228); 
+}
+
+/* FORMULARIO */
+
+.formulario  {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 5px solid #0062b3;
+  border-radius: 5px;
+}
+.formulario #inputNew {
+  height: 40px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #0062b3;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.formulario button {
+  margin-top: 15px;
+  height: 40px;
+  width: 270px;
+  border: none;
+  background-color: #0062b3;
+  border-radius: 10px;
+  color: white;
+}
+
+
+.formulario button:hover {
+  cursor: pointer;
+  background-color: #0062b3;
+}
+span{
+  color: red;
+}
+
+/* LOGIN */
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.loginContainer input,
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.loginContainer label {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.loginContainer button {
+  background-color: #0062b3;
+  color: white;
+  font-size: larger;
+}
+
+.loginContainer input {
+  border: 3px solid #0062b3;
+}
+
+
